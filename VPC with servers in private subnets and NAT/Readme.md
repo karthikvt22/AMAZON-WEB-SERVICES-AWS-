@@ -62,4 +62,7 @@ This project implements an **AWS VPC (Virtual Private Cloud) architecture** desi
 7. **Test the setup** by simulating high traffic and monitoring the scaling process.
 
 
+   To learn more visit - https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
+
+
 
