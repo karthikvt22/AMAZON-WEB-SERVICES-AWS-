@@ -1,4 +1,3 @@
-```markdown
 # Understanding AWS VPC with a Simple Analogy 🌍☁️
 
 Imagine your house is located in an apartment complex, where each flat has its own private space. The apartment complex has walls, doors, and security cameras to protect each person’s privacy and prevent any breaches. To manage security in the apartment, there is a system that handles all permissions and tasks related to security.
