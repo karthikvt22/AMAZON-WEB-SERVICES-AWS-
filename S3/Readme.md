@@ -47,5 +47,28 @@ Trigger AWS Lambda, SNS, or SQS automatically on object events like upload, dele
 - Use **AWS CloudTrail** and **CloudWatch** for full observability
 
 ---
+## 🌐 Use Case: Hosting a Static Website on S3
 
+Follow these steps to go live with a static website:
+
+```bash
+# 1️⃣ Create an S3 Bucket
+- Name it exactly like your domain (e.g., mysite.com)
+- Disable "Block all public access"
+
+# 2️⃣ Upload your static files
+- index.html, styles.css, images, etc.
+
+# 3️⃣ Enable Static Website Hosting
+- Go to Bucket > Properties > Static website hosting
+- Set index document (e.g., index.html)
+
+# 4️⃣ (Optional) Add Bucket Policy for Public Read
+- Allow public access to website files
+
+# 5️⃣ Access Your Website
+- Find your website URL in the Static Website Hosting section
+
+📎 Example Output:
+http://your-bucket-name.s3-website-region.amazonaws.com
 
