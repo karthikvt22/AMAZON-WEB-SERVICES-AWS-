@@ -69,3 +69,6 @@ Follow these steps to go live with a static website:
 
 # 5️⃣ Access Your Website
 - Find your website URL in the Static Website Hosting section
+
+📎 Example Output:
+http://your-bucket-name.s3-website-region.amazonaws.com
